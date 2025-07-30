@@ -7,56 +7,133 @@
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
-
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
-    <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
-    </ul>
-
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
+   <article id="inicio">
+      <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+      <hr />
+  
+      <h2>Índice</h2>
+      <ul>
+          <li><a href="#Historia">História dos computadores</a></li>
+          <li><a href="#Oque">O que são <i>Clients</i>?</a></li>
+          <li><a href="#OQueSaoervers">O que são <i>Servers</i>?</a></li>
+          <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+          <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+          <li><a href="#referencias">Links de referências</a></li>
+      </ul>
+      <hr />
+      <section>
+         <h2 id="Historia">História dos computadores</h2>
+         <p>A história dos computadores pode ser dividida em várias fases, desde dispositivos mecânicos antigos até as máquinas digitais modernas.</p>
+         <ol>
+            <li>
+               <h3>Pré-História e Dispositivos Mecânicos</h3>
+               <ul>
+                  <li>
+                     <p>
+                        Ábaco (c. 2400 a.C.): um dos primeiros instrumentos de cálculo usado por civilizações antigas.
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                        Pascalina (1642): inventada por Blaise Pascal, foi uma das primeiras calculadoras mecânicas.
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                        Máquina de Leibniz (1673): melhorou a Pascalina, realizando multiplicações e divisões.
+                     </p>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <h3>Computadores de Programação Mecânica</h3>
+               <ul>
+                     <p>
+                        Máquina de Diferenças e Máquina Analítica (século XIX): projetadas por Charles Babbage, eram ideias pioneiras de computadores programáveis. Ada Lovelace escreveu algoritmos para a Máquina Analítica, sendo considerada a primeira programadora da história.
+                     </p>
+               </ul>
+            </li>
+            <li>
+               <h3>Primeira Geração (1940–1956)</h3>
+               <ul>
+                  <li>
+                     <p>
+                        Computadores usavam válvulas eletrônicas (tubos a vácuo).
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                        Eram grandes, lentos e consumiam muita energia.
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                        Exemplos: ENIAC, EDVAC, UNIVAC.
+                     </p>
+                  </li>
+               </ul>
+            </li>
+         </ol>
+         <br>
+         <p><a href="#inicio">Vote para o inicio</a></p>
+      </section>
+      <hr />
+      <section id="Oque">
+         <h2>O que são <i>Clients</i>?</h2>
+         <p>
+            <strong>Client</strong> (ou cliente, em português) é um termo usado para se referir a um dispositivo, aplicação ou sistema que solicita serviços ou recursos de outro sistema, chamado servidor. Essa relação é típica do modelo cliente-servidor, muito comum na internet e redes locais.
+         </p>
+         <p>
+            Por exemplo, quando você acessa um site pelo navegador, o navegador é o cliente, e o servidor do site envia os dados para ele. O client envia requisições (como acessar uma página) e recebe respostas (como o conteúdo HTML).
+         </p>
+         <br>
+         <p><a href="#inicio">Vote para o inicio</a></p>
+      </section>
+      <hr />
+      <section id="OQueSaoervers">
+         <h2>O que são <i>Servers</i>?</h2>
+         <p>
+            <strong>Servidor</strong> é um sistema (físico ou virtual) que fornece serviços, recursos ou dados para outros sistemas chamados clientes. Ele faz parte do modelo cliente-servidor, muito usado em redes e na internet.
+         </p>
+         <p>
+            Um servidor recebe requisições dos clientes e responde com as informações ou ações solicitadas. Por exemplo, um servidor web entrega páginas HTML, enquanto um servidor de e-mail gerencia o envio e recebimento de mensagens.
+         </p>
+         <br>
+         <p><a href="#inicio">Vote para o inicio</a></p>
+      </section>
+      <hr />
+      <section id="estrutura">
+         <h2>Como é uma estrutura básica de um HTML?</h2>
+         <p>
+            A <strong>estrutura básica de um documento HTML</strong> é o esqueleto que todo arquivo <mark>.html</mark> deve ter para ser corretamente interpretado pelos navegadores. Ela define a organização do conteúdo da página.
+         </p>
+         <p>
+            Uma estrutura básica HTML começa com a declaração &lt;!DOCTYPE html&gt;, que informa ao navegador que se trata de um documento HTML5. Em seguida, temos a tag &lt;html&gt;, que envolve todo o conteúdo da página. Dentro dela, há duas partes principais: o &lt;head&gt; e o &lt;body&gt;.
+         </p>
+         <p>
+            O &lt;head&gt; contém informações sobre a página, como o título (&lt;title&gt;), codificação de caracteres, estilos e links para scripts. Já o &lt;body&gt; contém o conteúdo visível da página, como textos, imagens, links, listas, tabelas e outros elementos que o usuário interage.
+         </p>
+         <br>
+         <p><a href="#inicio">Vote para o inicio</a></p>
+      </section>
+      <hr />
+      <section id="listas">
+         <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+         <p>Listas ordenadas e não ordenadas em HTML são usadas para organizar conteúdos em forma de lista. As listas ordenadas, criadas com a tag &lt;ol&gt;, apresentam os itens em uma sequência numerada, ideal quando a ordem dos elementos é importante. Já as listas não ordenadas, feitas com a tag &lt;ul&gt;, exibem os itens com marcadores (como pontos), sendo usadas quando a ordem não é relevante. Em ambos os casos, cada item da lista é definido com a tag &lt;li&gt;</p>
+         <br>
+         <p><a href="#inicio">Vote para o inicio</a></p>
+      </section>
+      <hr />
+      <section id="referencias">
+         <h2>Links de referências</h2>
+         <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+         <ul>
+            <li><a href="http://dio.me">http://dio.me</a></li>
+            <li><a href="http://w3c.org">http://w3c.org</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/HTML">https://pt.wikipedia.org/wiki/HTML</a></li>
+         </ul>
+      </section>
+   </article>
 
 </body>
 </html>
